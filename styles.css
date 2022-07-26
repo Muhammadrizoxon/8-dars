@@ -1,0 +1,140 @@
+body{
+    margin: 0%;
+    background-color: #f2c140;
+}
+.fon {
+    width: 1350px;
+}
+.man1{
+    position: absolute;
+    width: 160px;
+    border-radius: 50%;
+    left: 60px;
+    top: 100px;
+}
+.man2{
+position: absolute;
+border-radius: 50%;
+bottom: 200px;      
+left: 150px;
+width: 180px;
+}
+.man3{
+    position: absolute;
+    border-radius: 50%;
+    width: 180px;
+    top: 55px;
+    left: 310px;
+}
+.man4{
+    position: absolute;
+    border-radius: 50%;
+    width: 160px;
+    top: 50px;
+    right: 390px;
+}
+.man5{
+    position: absolute;
+    border-radius: 50%;
+    width: 180px;
+    top: 135px;
+    right: 210px;
+}
+.man6{
+    position: absolute;
+    border-radius: 50%;
+    width: 120px;
+    top: 30px;
+    right: 50px;
+}
+.man7{
+    position: absolute;
+    border-radius: 50%;
+    width: 140px;
+    bottom: 200px;
+    right: 50px;
+}
+.rounded{
+    position: absolute;
+    width: 180px;
+    border-radius: 50%;
+    z-index: 10;
+    transition: 1s;
+}
+.rounded:hover{
+    width: 400px;
+    z-index: 100;
+}
+.top{
+    position: relative;
+    min-width: 1350px;
+    max-width: 1350px;
+    margin: auto;
+}
+.big-img1{
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    height: 100%;
+}
+.big-img2{
+    width: 250px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 30px;
+}
+.member{
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+    height: 250px;
+    overflow: hidden;
+}
+h1{
+    font-style: italic;
+    text-align: center;
+    background-image: -webkit-repeating-radial-gradient(red,yellow,orangered);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 50px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+.up-arrow{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 65px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+*{
+    scroll-behavior: smooth;
+}
+.bottom{
+    background-color: #eb9f0e;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 100px;
+}
+.bottom p {
+    margin-top: 30px;
+    color: white;
+}
+.bottom a{
+    margin: auto 20px;
+    text-decoration: none;
+    color: #422c03;
+    font-weight: 600;
+}
+.about{
+    text-align: center;
+    padding: 100px;
+}
+hr{
+    border-style: none;
+    border-top: dotted 10px #422c03;
+    width: 100px;
+    margin: 100px auto;
+}
